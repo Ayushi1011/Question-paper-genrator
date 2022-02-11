@@ -1,0 +1,61 @@
+ .popup {
+  height: 100%;
+  width: 100%;
+   /* position: absolute;   */
+   padding-top: 200px;
+    top: 0;
+   display: flex;
+   justify-content: center;
+  align-items: center;
+}  
+
+.content {
+  height: 340px;
+  width: 500px;
+  padding: 20px;
+  border-radius: 5px;
+  position: relative;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(9.5px);
+} 
+
+button {
+  width: 80%;
+  height: 30px;
+  margin-top: 15px;
+  border-radius: 60px;
+}
+#answerkey,
+#saveAndPrint,
+#addQuestion {
+  border-radius: 0px;
+  width: 130px;
+}
+
+.navcontent {
+  height: 55px;
+  width: 100%;
+  /* position: absolute; */
+  text-align: right;
+  padding-right: 40px;
+  border: 2px solid orange;
+  background: rgba(223, 196, 45, 0.822);
+}
+
+#workArea {
+    background: rgba(121, 120, 120, 0.438);
+    height: 680px;
+    width:100%;
+    position: absolute;
+   
+}
+
+#area,#workArea{
+font-size: 30px;
+}
+
+body{
+    overflow: hidden;
+}
